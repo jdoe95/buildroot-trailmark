@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (C) 2021 Mestek Inc
+ */
+/dts-v1/;
+
+#include "am33xx.dtsi"
+#include "am335x-trailmark-green.dtsi"
+
+/ {
+	model = "Mestek Trailmark Green HMI";
+	compatible = "mti,trailmark-green", "ti,am33xx";
+};

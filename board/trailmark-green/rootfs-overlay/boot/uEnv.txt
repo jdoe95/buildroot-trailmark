@@ -1,0 +1,11 @@
+kernel_addr=0x82000000
+fdt_addr=0x88000000
+rd_addr=0x88080000
+
+kernel_file=/boot/zImage
+fdt_file=/boot/am335x-trailmark-green.dtb
+# will load initial ramdisk if file is present
+rd_file=/boot/initrd
+
+# root=/dev/mmcblk?p? is populated in uboot environment
+cmdline_extra=console=ttyS0,115200n8 console=tty0 ro rootwait
